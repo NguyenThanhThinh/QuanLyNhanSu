@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Entities", "QuanLyNhanSu.Entities\QuanLyNhanSu.Entities.csproj", "{898C6641-425D-4761-9FDA-625DE5C713EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Utilities", "QuanLyNhanSu.Utilities\QuanLyNhanSu.Utilities.csproj", "{52C5A90A-F836-49B7-AD32-92A08A1B8ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Repository", "QuanLyNhanSu.Repository\QuanLyNhanSu.Repository.csproj", "{9ECDDCC6-8B62-402F-8C13-5881ADEC875B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Business", "QuanLyNhanSu.Business\QuanLyNhanSu.Business.csproj", "{5BB3E013-0FF3-436F-B973-2F3595667A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Data", "QuanLyNhanSu.Data\QuanLyNhanSu.Data.csproj", "{9B0F7473-D4AA-44CB-87F3-B3E2A02233CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Domain", "QuanLyNhanSu.Domain\QuanLyNhanSu.Domain.csproj", "{8502E441-810B-4232-83AC-C797DEB01942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyNhanSu.Web", "QuanLyNhanSu.Web\QuanLyNhanSu.Web.csproj", "{E2EC99F9-257D-4BBE-AF27-FBB09CD5AE51}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898C6641-425D-4761-9FDA-625DE5C713EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898C6641-425D-4761-9FDA-625DE5C713EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898C6641-425D-4761-9FDA-625DE5C713EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898C6641-425D-4761-9FDA-625DE5C713EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C5A90A-F836-49B7-AD32-92A08A1B8ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C5A90A-F836-49B7-AD32-92A08A1B8ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C5A90A-F836-49B7-AD32-92A08A1B8ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C5A90A-F836-49B7-AD32-92A08A1B8ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECDDCC6-8B62-402F-8C13-5881ADEC875B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECDDCC6-8B62-402F-8C13-5881ADEC875B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECDDCC6-8B62-402F-8C13-5881ADEC875B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECDDCC6-8B62-402F-8C13-5881ADEC875B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB3E013-0FF3-436F-B973-2F3595667A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB3E013-0FF3-436F-B973-2F3595667A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB3E013-0FF3-436F-B973-2F3595667A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB3E013-0FF3-436F-B973-2F3595667A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0F7473-D4AA-44CB-87F3-B3E2A02233CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0F7473-D4AA-44CB-87F3-B3E2A02233CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0F7473-D4AA-44CB-87F3-B3E2A02233CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0F7473-D4AA-44CB-87F3-B3E2A02233CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8502E441-810B-4232-83AC-C797DEB01942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8502E441-810B-4232-83AC-C797DEB01942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8502E441-810B-4232-83AC-C797DEB01942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8502E441-810B-4232-83AC-C797DEB01942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EC99F9-257D-4BBE-AF27-FBB09CD5AE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EC99F9-257D-4BBE-AF27-FBB09CD5AE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EC99F9-257D-4BBE-AF27-FBB09CD5AE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EC99F9-257D-4BBE-AF27-FBB09CD5AE51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

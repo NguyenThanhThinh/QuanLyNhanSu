@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{898C6641-425D-4761-9FDA-625DE5C713EB}</ProjectGuid>
+    <ProjectGuid>{5BB3E013-0FF3-436F-B973-2F3595667A41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuanLyNhanSu.Entities</RootNamespace>
-    <AssemblyName>QuanLyNhanSu.Entities</AssemblyName>
+    <RootNamespace>QuanLyNhanSu.Business</RootNamespace>
+    <AssemblyName>QuanLyNhanSu.Business</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
